@@ -392,7 +392,7 @@
                             }
 
                             .Adra-MR-chatbot-toggler .close-icon {
-                                opacity: 1;
+                                opacity: 0;
                                 margin-bottom: 0;
                             }
 
@@ -1008,8 +1008,8 @@
                 if (flag === "close") {
                     loadingContainer.classList.add("show")
                     requiredParams = {
-                        client_name: "Easton",
-                        service_name: "Sales Knowledge Worker",
+                        client_name: "Easton Roofing ",
+                        service_name: "Sales Knowledge Worker ",
                         language: "english",
                         msg: userInputTextValue.trim(),
                         flag: flag,
@@ -1020,8 +1020,8 @@
 
                 } else {
                     requiredParams = {
-                        client_name: "Easton",
-                        service_name: "Sales Knowledge Worker",
+                        client_name: "Easton Roofing ",
+                        service_name: "Sales Knowledge Worker ",
                         language: "english",
                         msg: userInputTextValue.trim(),
                         flag: flag,
